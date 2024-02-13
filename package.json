@@ -1,0 +1,23 @@
+{
+  "name": "beer",
+  "version": "1.0.0",
+  "description": "React + Node.js + MySQL 하이트진로",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "githhub.com"
+  },
+  "author": "KimGyuWan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
