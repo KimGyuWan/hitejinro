@@ -7,7 +7,11 @@ function Hash(props: Props) {
   const { } = props
 
   return (
-    <></>
+    <>
+      <section className={module.hash}>
+        hash
+      </section>
+    </>
   )
 }
 

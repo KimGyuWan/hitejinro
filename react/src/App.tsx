@@ -6,7 +6,7 @@ import Appbanner from "./components/contents/Appbanner";
 import Eventswiper from "./components/contents/Eventswiper";
 import Eventbanner from "./components/contents/Eventbanner";
 import Footer from "./layout/Footer";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

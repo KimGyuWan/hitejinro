@@ -7,7 +7,11 @@ function Eventswiper(props: Props) {
   const { } = props
 
   return (
-    <></>
+    <>
+      <section id='eventswiper' className={module.eventswiper}>
+        eventswiper
+      </section>
+    </>
   )
 }
 

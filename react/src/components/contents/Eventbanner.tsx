@@ -7,7 +7,11 @@ function Eventbanner(props: Props) {
   const { } = props
 
   return (
-    <></>
+    <>
+      <section id='eventbanner' className={module.eventbanner}>
+        eventbanner
+      </section>
+    </>
   )
 }
 

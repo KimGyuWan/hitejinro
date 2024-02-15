@@ -7,7 +7,11 @@ function Mainswiper(props: Props) {
   const { } = props
 
   return (
-    <></>
+    <>
+      <section id='mainswiper' className={module.mainswiper}>
+        mainswiper
+      </section>
+    </>
   )
 }
 

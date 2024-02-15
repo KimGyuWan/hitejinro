@@ -7,7 +7,11 @@ function Appbanner(props: Props) {
   const { } = props
 
   return (
-    <></>
+    <>
+      <section className={module.appbanner}>
+        appbanner
+      </section>
+    </>
   )
 }
 
