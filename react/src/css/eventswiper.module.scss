@@ -1,5 +1,55 @@
+.back {
+  background-image: url("../../public/img/bg/background1.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  // overflow: hidden;
+  height: 900px;
+}
 .eventswiper {
-  height: 70vh;
   margin: 10rem 0;
-  background-color: #ccc;
+  height: 900px;
+  position: relative;
+
+  .swiper {
+    height: 800px;
+  }
+
+  .slide {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cham {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 600px;
+  }
+
+  .swiperbeer {
+    width: auto;
+    height: 500px;
+  }
+}
+
+.aisoju {
+  position: absolute;
+  width: 280px;
+  height: auto;
+  top: 65%;
+  right: 20%;
+}
+
+.aibeer {
+  position: absolute;
+  width: 280px;
+  height: auto;
+  top: 65%;
+  left: 20%;
 }

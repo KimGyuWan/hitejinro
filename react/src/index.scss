@@ -1,14 +1,15 @@
 @font-face {
-  font-family: "SUIT Variable";
-  font-weight: normal;
-  src: url("./fonts/SUIT-Variable-woff2/SUIT-Variable.woff2") format("woff2-variations");
+  font-family: "HakgyoansimSantteutdotumL";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimSantteutdotumM.woff2")
+    format("woff2");
+  font-style: normal;
 }
 
 body,
 body * {
   margin: 0;
   padding: 0;
-  font-family: "SUIT Variable" !important;
+  font-family: "HakgyoansimSantteutdotumL" !important;
 
   ul {
     margin: 0;

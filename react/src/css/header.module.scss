@@ -33,6 +33,14 @@
       }
     }
   }
+
+  .listicon {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    font-size: 1.55rem;
+    display: none;
+  }
   .shareicon {
     top: 50%;
     transform: translateY(-50%);
@@ -93,13 +101,58 @@
         }
       }
     }
-
+    .gnb2,
+    .gnb3,
+    .gnb4 {
+      display: block;
+    }
     .gnb3 {
       margin-left: 7rem;
     }
 
     .gnb2 {
       margin-right: 6rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .scrolled {
+    .hd {
+      .h1 {
+        margin-right: unset;
+        .logo {
+          padding: 0;
+          margin: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 5%;
+          width: 30vw;
+          max-width: 146px !important;
+          display: block;
+
+          &::before {
+            transition-delay: unset;
+          }
+        }
+      }
+      .gnb2,
+      .gnb3,
+      .gnb4 {
+        display: none;
+      }
+    }
+  }
+
+  .hd {
+    .gnb2,
+    .gnb3,
+    .gnb4 {
+      display: none;
+    }
+
+    .listicon {
+      display: block;
     }
   }
 }

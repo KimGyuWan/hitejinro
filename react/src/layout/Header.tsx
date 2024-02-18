@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import module from '../css/header.module.scss';
-import { Share } from 'react-bootstrap-icons';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { LuShare2 } from "react-icons/lu";
+import { PiListFill } from "react-icons/pi";
 
 interface Props { }
 
@@ -40,6 +40,7 @@ function Header(props: Props) {
           <Nav.Link className={module.gnb3} href="#mainswiper">술알못이 추천</Nav.Link>
           <Nav.Link className={module.gnb4} href="#eventbanner">같이가자! 맥주견학</Nav.Link>
         </Nav>
+        <PiListFill className={`${module.listicon} position-absolute`} />
         <LuShare2 className={`${module.shareicon} position-absolute`} />
       </Navbar>
     </div>
